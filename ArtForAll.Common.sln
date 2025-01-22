@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{931D9895-B79A-4912-A62F-6D914B6F6A79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArtForAll.Shared.DDD", "src\ArtForAll.Events.Shared.DDD\ArtForAll.Shared.DDD.csproj", "{276A7CA9-AD96-4087-B06B-7B6B094E1D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#.Concepts", "tests\C#.Concepts\C#.Concepts.csproj", "{C817DEA6-0360-4F84-8DC3-54373A7E10DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{276A7CA9-AD96-4087-B06B-7B6B094E1D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276A7CA9-AD96-4087-B06B-7B6B094E1D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276A7CA9-AD96-4087-B06B-7B6B094E1D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276A7CA9-AD96-4087-B06B-7B6B094E1D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C817DEA6-0360-4F84-8DC3-54373A7E10DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C817DEA6-0360-4F84-8DC3-54373A7E10DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C817DEA6-0360-4F84-8DC3-54373A7E10DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C817DEA6-0360-4F84-8DC3-54373A7E10DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{276A7CA9-AD96-4087-B06B-7B6B094E1D50} = {931D9895-B79A-4912-A62F-6D914B6F6A79}
+		{C817DEA6-0360-4F84-8DC3-54373A7E10DB} = {931D9895-B79A-4912-A62F-6D914B6F6A79}
+	EndGlobalSection
+EndGlobal
